@@ -60,6 +60,11 @@ p {
   position: relative;
 }
 
+.profile p{
+  width: 80%;
+  display: inline-block;
+}
+
 .top-container {
   color: #000131;
   background: url('mountain.gif') no-repeat center center/cover;
