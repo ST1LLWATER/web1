@@ -57,7 +57,7 @@ p {
 }
 
 .hov {
-  bottom: 51px;
+  bottom: 61px;
   display: inline-block;
   position: relative;
 }
@@ -75,7 +75,7 @@ p {
   width: 100%;
   margin-top: 120px;
   height: 718px;
-  z-index: -1;
+
 }
 
 .profile{
@@ -98,9 +98,7 @@ p {
   width: 80%;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 .hov:hover {
   color: white;
@@ -116,7 +114,6 @@ html {
   color: white;
   background-color: #000131;
   margin-top: -10px;
-  z-index: 1;
 }
 
 .bottom-container{
@@ -137,6 +134,7 @@ img {
 }
 
 .img1{
+  position: relative;
   height: 150px;
   width: auto;
 }
