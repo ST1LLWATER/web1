@@ -21,6 +21,7 @@ h2 {
 .climax{
   font-size: 10px;
   height: 20px;
+
 }
 
 h3 {
@@ -120,8 +121,17 @@ a{
   font-size: 1rem;
 }
 
-.bottom-container{
+.links{
+display: flex;
+justify-content: center;
+}
 
+.links a{
+  flex-basis: 5rem;
+}
+
+.bottom-container{
+  justify-content: center;
   color: white;
   background-color: #000131;
   margin-top: -30px;
