@@ -1,8 +1,9 @@
 body {
   margin: 0;
+  padding: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color:#5674b9; 
+  background-color:#5674b9;
 }
 
 h1 {
