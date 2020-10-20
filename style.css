@@ -2,7 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #5674b9;
+  background-color:#5674b9; 
 }
 
 h1 {
@@ -85,7 +85,7 @@ p {
 
 .contact-me{
   margin-top:30px;
-  margin-bottom: 30px;
+
 }
 
 .skills{
@@ -123,18 +123,17 @@ a{
 
 .links{
 display: flex;
-justify-content: center;
+justify-content: space-around;
 }
 
 .links a{
-  flex-basis: 5rem;
+
 }
 
 .bottom-container{
-  justify-content: center;
   color: white;
   background-color: #000131;
-  margin-top: -30px;
+
   padding: 50px 20px 9px 20px;
 }
 
