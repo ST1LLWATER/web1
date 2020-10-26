@@ -125,16 +125,30 @@ a{
 .links{
 display: flex;
 justify-content: space-around;
+width: 300px;
+margin: auto;
 }
 
-.links a{
-
+a{
+  color: lightgrey;
+  text-decoration: none;
 }
+
+a:hover{
+  color: #5674b9;
+}
+
+a:active{
+  color: #f1f6f9;
+}
+
+/* a:visited{
+  color: #28abb9;
+} */
 
 .bottom-container{
   color: white;
   background-color: #000131;
-
   padding: 50px 20px 9px 20px;
 }
 
