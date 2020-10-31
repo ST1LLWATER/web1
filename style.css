@@ -3,7 +3,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color:#5674b9;
+  background-color: #5674b9;
 }
 
 h1 {
@@ -19,10 +19,9 @@ h2 {
   margin: 0;
 }
 
-.climax{
+.climax {
   font-size: 10px;
   height: 20px;
-
 }
 
 h3 {
@@ -32,18 +31,16 @@ h3 {
   color: #5674b9;
 }
 
-
-
-.end{
-line-height: 10px;
-margin-top: 20px;
+.end {
+  line-height: 10px;
+  margin-top: 20px;
 }
 
-.end1{
+.end1 {
   margin-bottom: 10px;
 }
 
-hr{
+hr {
   border-color: #5674b9;
   border-width: 6px;
   height: 2px;
@@ -64,7 +61,7 @@ p {
   position: relative;
 }
 
-.profile p{
+.profile p {
   width: 80%;
   display: inline-block;
 }
@@ -77,30 +74,26 @@ p {
   width: 100%;
   margin-top: 120px;
   height: 718px;
-
 }
 
-.profile{
+.profile {
   margin-bottom: 50px;
 }
 
-.contact-me{
-  margin-top:30px;
-
+.contact-me {
+  margin-top: 30px;
 }
 
-.skills{
+.skills {
   margin: 50px auto 30px auto;
 }
 
 .skill-row {
+  display: flex;
   margin: 20px auto 20px auto;
-  display: inline-block;
   text-align: left;
   width: 80%;
 }
-
-
 
 .hov:hover {
   color: white;
@@ -112,51 +105,63 @@ p {
   font-weight: bold;
 }
 
-.middle-container{
+
+.middle-container {
   color: white;
   background-color: #000131;
   margin-top: -10px;
 }
 
-a{
+a {
   font-size: 1rem;
 }
 
-.links{
-display: flex;
-justify-content: space-around;
-width: 300px;
-margin: auto;
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin: auto;
 }
 
-a{
+/* a {
   color: lightgrey;
   text-decoration: none;
+} */
+/* .A{
+  color: yellow;
 }
 
-a:hover{
+.A:visited{
+  color: red;
+} */
+
+.links a:link {
+  color: lightgrey;
+}
+
+.links a:hover {
   color: #5674b9;
 }
 
-a:active{
+.links a:active {
   color: #f1f6f9;
 }
 
-/* a:visited{
+.links a:visited {
   color: #28abb9;
-} */
+}
 
-.bottom-container{
+.bottom-container {
   color: white;
   background-color: #000131;
   padding: 50px 20px 9px 20px;
 }
 
-.head0{
+.head0 {
   margin: 20px 0 20px 0;
 }
 
-.empty-content{
+.empty-content {
   position: relative;
   display: inline-block;
   margin: 0;
@@ -168,18 +173,16 @@ img {
   height: 150px;
 }
 
-.img1{
+.img1 {
   position: relative;
   height: 150px;
   width: auto;
 }
 
-.img2{
+.img2 {
   margin-right: 30px;
-  float: left;
 }
 
-.img3{
+.img3 {
   margin-left: 30px;
-  float: right;
 }
