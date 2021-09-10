@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   background-color: #5674b9;
+  box-sizing: border-box;
 }
 
 h1 {
